@@ -1,0 +1,157 @@
+.wrapper {
+  display: flex;
+}
+
+.side_bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side_bar_header {
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_name a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create_room a {
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.rooms {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room_name a {
+  text-decoration: none;
+  color: white;
+}
+
+.main_chat {
+  background-color: #fff;
+  width: calc(100vw - 300px);
+}
+
+.main_chat_header {
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_title {
+  color: #333;
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.header_button {
+  margin-top: 40px;
+}
+
+.header_button a {
+  text-decoration: none;
+  border: 1px solid darkred;
+  color: darkred;
+  padding: 20px;
+}
+
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 190px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper_message {
+  display: flex;
+}
+
+.message_user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.message_date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower_message {
+  margin-top: 10px;
+}
+
+.message_content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.form {
+  background-color: #DDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.form_input {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form_message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form_image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.form_submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
